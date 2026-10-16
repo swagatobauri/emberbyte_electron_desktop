@@ -1,0 +1,63 @@
+{
+  "name": "emberbyte-electron-desktop",
+  "version": "1.0.0",
+  "description": "EmberByte PixelFocus OS - A retro-futuristic offline productivity suite and desktop dashboard.",
+  "homepage": "https://github.com/swagatobauri/emberbyte_electron_desktop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swagatobauri/emberbyte_electron_desktop.git"
+  },
+  "main": "main.js",
+  "author": "Swagato Bauri <swagato731123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --mac dmg",
+    "build:dmg": "electron-builder --mac dmg"
+  },
+  "build": {
+    "appId": "com.swagato.pixelfocus",
+    "productName": "PixelFocus",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg"
+      ],
+      "icon": "icon.icns",
+      "identity": null
+    },
+    "dmg": {
+      "title": "${productName} Installer",
+      "icon": "icon.icns",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "pixel-focus-os.html",
+      "index.html",
+      "assets/**/*",
+      "icon.png",
+      "icon.icns"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^26.7.0"
+  }
+}
