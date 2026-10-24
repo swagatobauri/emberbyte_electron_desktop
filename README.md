@@ -1,8 +1,9 @@
-# EmberByte Focus OS (PixelFocus)
+# Emberbyte
 
 <div align="center">
-  <img src="icon.png" width="128" height="128" alt="EmberByte Focus OS Icon" style="border-radius: 24px;" />
-  <h3>A Retro-Futuristic Offline Productivity Suite & Desktop Dashboard</h3>
+  <img src="icon.png" width="128" height="128" alt="Emberbyte Icon" style="border-radius: 24px;" />
+  <h2>Emberbyte &mdash; Your Little Focus Space</h2>
+  <p><i>&ldquo;Small steps. Steady sparks.&rdquo;</i></p>
   <p><b>Created by Swagato Bauri</b> (<a href="mailto:swagato731123@gmail.com">swagato731123@gmail.com</a>)</p>
 
   <p>
@@ -18,7 +19,7 @@
 
 ## 📖 About The Project
 
-**EmberByte Focus OS** is an all-in-one, offline-first productivity dashboard wrapped in a charming 16-bit retro arcade aesthetic. Designed for maximum focus and flow state, it provides an integrated suite of productivity tools without notifications, cloud distractions, or tracking.
+**Emberbyte** is your little personal focus space wrapped in a charming 16-bit retro arcade aesthetic. Built on the philosophy of *"Small steps. Steady sparks."*, it delivers an integrated offline productivity suite free of notifications, cloud surveillance, and digital noise.
 
 All data is saved completely locally on your machine via `localStorage`, making it fast, private, and 100% functional offline.
 
@@ -91,8 +92,8 @@ npm run dist
 ```
 
 Once complete, the installer disk image will be available in the `dist/` directory:
-- `dist/PixelFocus-1.0.0-arm64.dmg` (for Apple Silicon)
-- Mount the `.dmg` and drag **PixelFocus** into your macOS **Applications** folder to install!
+- `dist/Emberbyte-1.0.0-arm64.dmg` (for Apple Silicon)
+- Mount the `.dmg` and drag **Emberbyte** into your macOS **Applications** folder to install!
 
 ---
 

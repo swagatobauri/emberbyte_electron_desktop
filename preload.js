@@ -3,5 +3,5 @@
 
 window.addEventListener('DOMContentLoaded', () => {
   // Desktop app environment initialized
-  console.log('PixelFocus OS Desktop Ready');
+  console.log('Emberbyte Desktop Ready');
 });

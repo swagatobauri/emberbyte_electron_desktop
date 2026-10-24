@@ -1,7 +1,7 @@
 {
   "name": "emberbyte-electron-desktop",
   "version": "1.0.0",
-  "description": "EmberByte PixelFocus OS - A retro-futuristic offline productivity suite and desktop dashboard.",
+  "description": "Emberbyte — Your Little Focus Space. Small steps. Steady sparks.",
   "homepage": "https://github.com/swagatobauri/emberbyte_electron_desktop",
   "repository": {
     "type": "git",
@@ -17,8 +17,8 @@
     "build:dmg": "electron-builder --mac dmg"
   },
   "build": {
-    "appId": "com.swagato.pixelfocus",
-    "productName": "PixelFocus",
+    "appId": "com.swagato.emberbyte",
+    "productName": "Emberbyte",
     "directories": {
       "output": "dist"
     },

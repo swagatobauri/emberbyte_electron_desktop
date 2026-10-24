@@ -11,7 +11,7 @@ const createWindow = () => {
     height: 820,
     minWidth: 900,
     minHeight: 650,
-    title: 'PixelFocus OS',
+    title: 'Emberbyte — Your Little Focus Space',
     backgroundColor: '#0d1117',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
